@@ -17,7 +17,7 @@
   .primary-btn {
     padding: 1em 2em;
     align-items: flex-start;
-    
+
     border-radius: 2.4em;
     background-color: #FF42A5;
     border: none;
@@ -28,8 +28,8 @@
     font-family: Work Sans;
     font-size: 2rem;
     font-weight: 600;
-    
-    
+
+
   }
 
   /* Nav-bar styles */
@@ -107,7 +107,7 @@
     text-transform: uppercase;
   }
 
-  .hero-section h1 {
+  .hero-left h1 {
     font-size: 9.5em;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -117,7 +117,7 @@
     margin-bottom: 20px;
   }
 
-  .hero-section p {
+  .hero-left p {
     color: #534C64;
     font-size: 2rem;
     font-weight: 500;
@@ -153,6 +153,40 @@
       margin-top: 1em;
     }
 
+    /* herso section  */
+
+    .hero-section {
+      flex-direction: column-reverse;
+      margin: 20px;
+
+    }
+
+    .hero-section .hero-right img {
+      object-fit: cover;
+    }
+
+    .hero-section {
+      flex-direction: column-reverse;
+      align-items: center;
+      overflow: hidden;
+
+    }
+
+    .hero-left {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      fill: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+      
+    }
+
+    .hero-right img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+
+    }
+
   }
 
   /* small devices */
@@ -179,5 +213,29 @@
     .icon-button {
       margin-top: 1em;
     }
+
+    /* herso section  */
+
+    .hero-section {
+      flex-direction: column-reverse;
+      align-items: center;
+      overflow: hidden;
+
+    }
+
+    .hero-left {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero-right img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+
+    }
+
+
 
   }
